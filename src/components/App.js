@@ -21,12 +21,7 @@ function App() {
   const [cats, setCats] = useState([]);
   const [adoptableCats, setAdoptableCats] = useState([]);
   const [cafeCats, setCafeCats] = useState([]);
-  // const [oneCat, setOneCat] = useState([]);
-  // const [currentIndex, setCurrentIndex] = useState(0);
-  // const [backIsOn, setBackIsOn] = useState(false);
-  // const [nextIsOn, setNextIsOn] = useState(true);
   const [books, setBooks] = useState([]);
-  // const [cardVisible, setCardVisible] = useState(true);
 
   useEffect(() => {
     fetch(adoptableCatsAPI)
